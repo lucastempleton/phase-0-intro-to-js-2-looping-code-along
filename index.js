@@ -1,10 +1,9 @@
 // Code your solutions in this file
-const names = ["Lisa","Caitlyn","Jan"]
-function writeCards(names){
-    const newArray = []
+// const names = ["Lisa","Caitlyn","Jan"]
+function writeCards(names, event){
+    const newArray = [];
     for (let i=0; i<names.length; i++){
-        newArray.push (`Thank You, ${names[i]}, for the wonderful surprise gift!`);
-        
+        newArray.push (`Thank You, ${names[i]}, for the wonderful ${event} gift!`);   
     }
     return newArray
     
